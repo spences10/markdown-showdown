@@ -59,8 +59,7 @@ const GlobalStyle = createGlobalStyle`
     align-items: center;
 
     width: 100vw;
-    /* height: 100vh; */
-    height: 90vh;
+    height: 100vh;
     padding: 1rem;
 
     text-align: center;
