@@ -279,6 +279,98 @@ This is ~~strikethrough~~.
 
 ---
 
+Raw link: https://scottspence.com/garden
+
+```markdown
+Raw link: https://scottspence.com/garden
+```
+
+With angle brackets: <https://scottspence.com/garden>
+
+```markdown
+With angle brackets: <https://scottspence.com/garden>
+```
+
+---
+
+Check out my [digital garden](https://scottspence.com/garden) for more
+content.
+
+```markdown
+Check out my [digital garden](https://scottspence.com/garden) for more
+content.
+```
+
+---
+
+Check out my
+[digital garden](https://scottspence.com/garden 'check it out') for
+more content.
+
+```markdown
+Check out my
+[digital garden](https://scottspence.com/garden 'check it out') for
+more content.
+```
+
+---
+
+<SpeakerNotes>
+  <p>
+    - This way of adding links can become a bit disorienting if there
+    are many links in a document making it hard to read
+  </p>
+  <p>
+    - And the whole point of Markdown is to make the text easier to
+    read.
+  </p>
+  <p>- The approach I like to take is using keys or references:</p>
+</SpeakerNotes>
+
+## This isn't great to read
+
+```markdown
+Check out my [digital garden](https://scottspence.com/garden) for more
+content.
+```
+
+---
+
+## This is nicer
+
+```markdown
+Check out my [digital garden][1] for more content.
+
+<!-- Links -->
+
+[1]: https://scottspence.com/garden 'add a title here'
+```
+
+---
+
+## This is nicer still
+
+```markdown
+Check out my [digital garden] for more content.
+
+<!-- Links -->
+
+[digital garden]: https://scottspence.com/garden 'title here'
+```
+
+---
+
+<SpeakerNotes>
+  <p>
+    - Links can also be used to reference local headings in your
+    Markdown
+  </p>
+</SpeakerNotes>
+
+## Local link references
+
+---
+
 # Markdown Images
 
 ---
@@ -305,8 +397,6 @@ This is ~~strikethrough~~.
 
 # Markdown Tables
 
-</SlidePage>
-
 ---
 
 # Thank You
@@ -316,3 +406,5 @@ This is ~~strikethrough~~.
 # Slides
 
 https://ss10.dev/mdsd
+
+</SlidePage>
