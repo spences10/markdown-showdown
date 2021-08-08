@@ -19,9 +19,9 @@
   },
   "dependencies": {
     "@mdx-js/loader": "^1.5.8",
-    "@next/mdx": "^9.3.4",
+    "@next/mdx": "9.3.4",
     "framer-motion": "^1.10.3",
-    "next": "9.3.4",
+    "next": "9.5.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-swipeable": "^5.5.1",
